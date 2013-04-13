@@ -1,0 +1,2291 @@
+# Translation of the WordPress plugin Job Manager 0.7 by Gary Pendergast.
+# Copyright (C) 2010 Gary Pendergast
+# This file is distributed under the same license as the Job Manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Job Manager 0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/job-manager\n"
+"POT-Creation-Date: 2010-04-21 20:31+0000\n"
+"PO-Revision-Date: 2013-04-13 16:25+0900\n"
+"Last-Translator: Shinichi\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Bookmarks: -1,58,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: admin-application-form.php:11 admin-jobs-settings.php:11
+msgid "Text Input"
+msgstr "テキスト入力"
+
+#: admin-application-form.php:12 admin-jobs-settings.php:12
+msgid "Radio Buttons"
+msgstr "ラジオボタン"
+
+#: admin-application-form.php:13
+msgid "Select Dropdown"
+msgstr "セレクトボックス"
+
+#: admin-application-form.php:14 admin-jobs-settings.php:13
+msgid "Checkboxes"
+msgstr "チェックボックス"
+
+#: admin-application-form.php:15 admin-jobs-settings.php:14
+msgid "Large Text Input (textarea)"
+msgstr "テキストエリア"
+
+#: admin-application-form.php:16 admin-jobs-settings.php:15
+msgid "Date Selector"
+msgstr "日付セレクタ"
+
+#: admin-application-form.php:17 admin-jobs-settings.php:16
+msgid "File Upload"
+msgstr "ファイルアップロード"
+
+#: admin-application-form.php:18
+msgid "Geolocation"
+msgstr "位置情報"
+
+#: admin-application-form.php:19 admin-jobs-settings.php:17
+msgid "Heading"
+msgstr "項目"
+
+#: admin-application-form.php:20 admin-jobs-settings.php:18
+msgid "HTML Code"
+msgstr "HTMLコード"
+
+#: admin-application-form.php:21 admin-jobs-settings.php:19
+msgid "Blank Space"
+msgstr "空白"
+
+#: admin-application-form.php:39 admin-jobs-settings.php:37
+msgid "Field Label/Type"
+msgstr "フィールド名 / 種類"
+
+#: admin-application-form.php:40 admin-applications.php:67
+#: admin-applications.php:204 admin-applications.php:240
+#: admin-frontend-settings.php:217 admin-jobs.php:69 admin-jobs.php:288
+#: admin-settings.php:70 admin-settings.php:86 admin-settings.php:601
+#: setup.php:90 widgets.php:138
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: admin-application-form.php:41 admin-jobs-settings.php:38
+msgid "Data"
+msgstr "データ"
+
+#: admin-application-form.php:42
+msgid "Submit Filter/Filter Error Message"
+msgstr "フィルター / フィルターのエラーメッセージを送信"
+
+#: admin-application-form.php:43 admin-frontend-settings.php:131
+#: admin-jobs-settings.php:39
+msgid "Sort Order"
+msgstr "並び替え順"
+
+#: admin-application-form.php:44 admin-application-form.php:113
+#: admin-application-form.php:141 admin-applications.php:565
+#: admin-jobs-settings.php:40 admin-jobs-settings.php:78
+#: admin-jobs-settings.php:95 admin-jobs.php:112 admin-settings.php:160
+#: admin-settings.php:178 admin-settings.php:189 admin-settings.php:239
+#: admin-settings.php:256 admin-settings.php:265
+msgid "Delete"
+msgstr "削除"
+
+#: admin-application-form.php:77 admin-application-form.php:127
+msgid "Show this field in the Application List?"
+msgstr "応募入力欄では、このフィールドを表示しますか？"
+
+#: admin-application-form.php:84 admin-application-form.php:128
+msgid "Block this field from application emails?"
+msgstr "応募入力のメールからこのフィールドをブロックしますか？"
+
+#: admin-application-form.php:108 admin-application-form.php:137
+msgid "Mandatory field?"
+msgstr "必須フィールドか否か？"
+
+#: admin-application-form.php:112 admin-application-form.php:140
+#: admin-jobs-settings.php:77 admin-jobs-settings.php:94
+msgid "Up"
+msgstr "アップ"
+
+#: admin-application-form.php:112 admin-application-form.php:140
+#: admin-jobs-settings.php:77 admin-jobs-settings.php:94
+msgid "Down"
+msgstr "ダウン"
+
+#: admin-application-form.php:155 admin-jobs-settings.php:106
+msgid "Add New Field"
+msgstr "新しいフィールドを作成"
+
+#: admin-application-form.php:159
+msgid "Update Application Form"
+msgstr "応募フォームを更新"
+
+#: admin-applications.php:36 admin-applications.php:750
+msgid "Job Manager: Applications"
+msgstr "ジョブ·マネージャー：応募"
+
+#: admin-applications.php:39
+msgid "Selected applications have been deleted."
+msgstr "選択した応募が削除されました。"
+
+#: admin-applications.php:41
+msgid "The mailout has been sent."
+msgstr "メールを送信しました。"
+
+#: admin-applications.php:50
+msgid "Standard Filters"
+msgstr "標準フィルター"
+
+#: admin-applications.php:53 admin-jobs.php:283
+msgid "Job ID"
+msgstr "求人ID"
+
+#: admin-applications.php:60
+msgid "Registered Applicant"
+msgstr "登録応募者"
+
+#: admin-applications.php:90
+msgid "Minimum Rating"
+msgstr "最低評価"
+
+#: admin-applications.php:100
+msgid "Custom Filters"
+msgstr "カスタムフィルター"
+
+#: admin-applications.php:155
+#, php-format
+msgid "Up to %1s km from %2s"
+msgstr "%1s キロから%2s キロまで"
+
+#: admin-applications.php:166
+msgid "Please enter a Google Maps API key in your Admin Settings."
+msgstr "管理者設定画面でGoogle Maps APIキーを入力してください。"
+
+#: admin-applications.php:171
+msgid "This field cannot be filtered."
+msgstr "このフィールドは、フィルタリングできません。"
+
+#: admin-applications.php:181
+msgid "Filter Applications"
+msgstr "フィルターアプリケーション"
+
+#: admin-applications.php:185
+msgid "Show Filter Options"
+msgstr "フィルターオプションを表示"
+
+#: admin-applications.php:186
+msgid "Hide Filter Options"
+msgstr "フィルタオプションを隠す"
+
+#: admin-applications.php:196 admin-applications.php:232
+#: admin-applications.php:665 frontend-application.php:875 setup.php:74
+#: setup.php:246
+msgid "Job"
+msgstr "求人"
+
+#: admin-applications.php:200 admin-applications.php:236
+msgid "User"
+msgstr "ユーザー"
+
+#: admin-applications.php:216 admin-applications.php:252
+#: admin-applications.php:514
+msgid "View Details"
+msgstr "詳細を見る"
+
+#: admin-applications.php:217 admin-applications.php:253 admin-emails.php:120
+#: admin.php:31
+msgid "Emails"
+msgstr "メールアドレス"
+
+#: admin-applications.php:221 admin-applications.php:257
+#: admin-applications.php:621 admin.php:34
+msgid "Interviews"
+msgstr "面接"
+
+#: admin-applications.php:225 admin-applications.php:261
+#: admin-applications.php:673
+msgid "Rating"
+msgstr "評価"
+
+#: admin-applications.php:457
+msgid "No job"
+msgstr "無職"
+
+#: admin-applications.php:464
+msgid "Unregistered Applicant"
+msgstr "未登録の応募"
+
+#: admin-applications.php:500 admin-applications.php:707 admin-jobs.php:192
+#: admin-settings.php:523 admin-settings.php:554 frontend-shortcodes.php:169
+#: frontend-shortcodes.php:367
+msgid "Download"
+msgstr "ダウンロード"
+
+#: admin-applications.php:547
+msgid "There were no applications that matched your search."
+msgstr "検索条件に一致する応募はありませんでした。"
+
+#: admin-applications.php:549
+msgid "There are currently no applications in the system."
+msgstr "現在、応募はありません。"
+
+#: admin-applications.php:563 admin-jobs.php:111
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: admin-applications.php:564 admin-applications.php:734
+#: admin-settings.php:145 admin-settings.php:158
+msgid "Email"
+msgstr "メールアドレス"
+
+#: admin-applications.php:566
+msgid "Export as CSV file"
+msgstr "CSVファイルとしてエクスポート"
+
+#: admin-applications.php:568 admin-jobs.php:116
+msgid "Apply"
+msgstr "応募"
+
+#: admin-applications.php:600
+msgid "Job Manager: Application Details"
+msgstr "ジョブ·マネージャー：応募の詳細"
+
+#: admin-applications.php:602 admin-applications.php:626
+msgid "Back to Application List"
+msgstr "応募リストに戻る"
+
+#: admin-applications.php:611 admin-interviews.php:316 db.php:487
+#: frontend-application.php:515
+msgid "Application"
+msgstr "応募"
+
+#: admin-applications.php:612 admin-interviews.php:317
+msgid "Application Comments"
+msgstr "応募·コメント"
+
+#: admin-applications.php:612
+msgid "Share Application"
+msgstr "応募の共有"
+
+#: admin-applications.php:667 admin-settings.php:591 admin.php:29
+msgid "Jobs"
+msgstr "求人"
+
+#: admin-applications.php:671 frontend-application.php:881
+msgid "Timestamp"
+msgstr "タイムスタンプ"
+
+#: admin-applications.php:728
+msgid "Use this form to email the application to a new email address."
+msgstr ""
+"新しいメールアドレスに応募情報を送信するには、このフォームを使用してくださ"
+"い。"
+
+#: admin-applications.php:751
+msgid ""
+"This will permanently delete all of the selected applications. Please "
+"confirm that you want to continue."
+msgstr "この操作で選択された応募情報がすべて削除されます。続行しますか？"
+
+#: admin-applications.php:752
+msgid "Delete Applications"
+msgstr "応募情報を削除する"
+
+#: admin-comments.php:8
+msgid "Comment"
+msgstr "コメント"
+
+#: admin-comments.php:19
+msgid "No comments found"
+msgstr "コメントはありません。"
+
+#: admin-emails.php:10
+msgid "Job Manager: Emails"
+msgstr "ジョブ·マネージャー：メールアドレス"
+
+#: admin-emails.php:12
+msgid ""
+"In the \"Applications Sent To\" column, click the number to go to that "
+"application, or click the asterisk (*) next to it to see other emails sent "
+"to that application."
+msgstr ""
+"「送信済み応募」カラムで、応募情報を見るには、応募番号をクリックするか、アス"
+"タリスク（*）をクリックし、送信された他のメールを見てください。"
+
+#: admin-emails.php:17 admin-emails.php:25
+msgid "Date"
+msgstr "日付"
+
+#: admin-emails.php:18 admin-emails.php:26 admin-emails.php:96
+#: admin-emails.php:177 admin-settings.php:381
+msgid "Subject"
+msgstr "件名"
+
+#: admin-emails.php:19 admin-emails.php:27
+msgid "Applications Sent To"
+msgstr "送信された応募"
+
+#: admin-emails.php:68
+msgid "There are currently no emails in the system."
+msgstr "メールは現在ありません。"
+
+#: admin-emails.php:85
+msgid "No such email."
+msgstr "そのしたメールはありません。"
+
+#: admin-emails.php:90
+msgid "Job Manager: Email"
+msgstr "ジョブ·マネージャー：メール"
+
+#: admin-emails.php:92
+msgid ""
+"In the \"Applications\" field, click the number to go to that application, "
+"or click the asterisk (*) next to it to see other emails sent to that "
+"application."
+msgstr ""
+"応募フィールドの中で、応募情報を見るには数字をクリックするか、アスタリスク"
+"（*）をクリックし、送信された他のメールを見てください。"
+
+#: admin-emails.php:112 admin-jobs.php:84 admin-settings.php:596 admin.php:30
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: admin-emails.php:128 admin-emails.php:181
+msgid "Message"
+msgstr "お問い合わせ内容"
+
+#: admin-emails.php:159
+msgid "Job Manager: Application Email"
+msgstr "ジョブ·マネージャー：応募メール"
+
+#: admin-emails.php:169
+msgid "From"
+msgstr "から"
+
+#: admin-emails.php:173
+msgid "To"
+msgstr "へ"
+
+#: admin-emails.php:186
+msgid "Send Email"
+msgstr "メールを送信"
+
+#: admin-frontend-settings.php:43 admin-frontend-settings.php:54 admin.php:168
+msgid "Display Settings"
+msgstr "表示設定"
+
+#: admin-frontend-settings.php:43 admin-frontend-settings.php:55
+msgid "Job List Sorting"
+msgstr "求人リストのソート"
+
+#: admin-frontend-settings.php:43 admin-frontend-settings.php:55
+msgid "Job Templates"
+msgstr "求人テンプレート"
+
+#: admin-frontend-settings.php:43 admin-frontend-settings.php:55
+msgid "Application Form Settings"
+msgstr "応募フォーム設定"
+
+#: admin-frontend-settings.php:43 admin-frontend-settings.php:55
+msgid "Application Form Template"
+msgstr "応募フォームテンプレート"
+
+#: admin-frontend-settings.php:43 admin-frontend-settings.php:54
+msgid "Miscellaneous Text"
+msgstr "その他テキスト"
+
+#: admin-frontend-settings.php:43 admin-frontend-settings.php:54
+msgid "Page Text"
+msgstr "ページテキスト"
+
+#: admin-frontend-settings.php:44 admin-settings.php:71
+msgid "Donate"
+msgstr "寄付"
+
+#: admin-frontend-settings.php:44 admin-settings.php:71
+msgid "About This Plugin"
+msgstr "このプラグインについて"
+
+#: admin-frontend-settings.php:71
+msgid "Job Manager Page Template"
+msgstr "Job Manager のページテンプレート"
+
+#: admin-frontend-settings.php:72
+#, php-format
+msgid ""
+"You can edit the page template used by Job Manager, by editing the Template "
+"Attribute of <a href=\"%s\">this page</a>."
+msgstr ""
+"Job Manager で使用されるページテンプレートを、<a href=\"%s\">このページ</a>で"
+"編集できます。"
+
+#: admin-frontend-settings.php:75
+msgid "Jobs Per Page"
+msgstr "ページでの求人情報"
+
+#: admin-frontend-settings.php:77
+msgid ""
+"The number of jobs to display per page in the main and category jobs lists. "
+"For no limit, set this to 0."
+msgstr ""
+"メインカテゴリと求人リストでページごとに表示する求人の数。制限しない場合は、"
+"この値を0に設定してください。"
+
+#: admin-frontend-settings.php:80
+msgid "Date Format"
+msgstr "日付フォーマット"
+
+#: admin-frontend-settings.php:82
+#, php-format
+msgid ""
+"The format to use for Job date fields. Leave blank to use the dates as "
+"they're entered. See the <a href='%1s'>documentation on date formatting</a> "
+"for further details."
+msgstr ""
+"求人の日付フィールドに使用する書式です。既に入力済みの場合は、空白のままにし"
+"ておきます。詳細については、<a href='%1s'>上のマニュアル</>を参照してくださ"
+"い。"
+
+#: admin-frontend-settings.php:88
+msgid "Hide \"Powered By\" link?"
+msgstr "「Powered By」リンクを非表示にするためには？"
+
+#: admin-frontend-settings.php:90
+msgid ""
+"If you're unable to donate, I would appreciate it if you left this unchecked."
+msgstr ""
+"あなたが寄付されない場合は、このチェックボックスを外さないようにお願いしま"
+"す。"
+
+#: admin-frontend-settings.php:97
+msgid "Update Display Settings"
+msgstr "表示設定を更新"
+
+#: admin-frontend-settings.php:112
+msgid "Sort By:"
+msgstr "並べ替え"
+
+#: admin-frontend-settings.php:114 admin-frontend-settings.php:133
+msgid "Default"
+msgstr "初期値"
+
+#: admin-frontend-settings.php:115
+msgid "Job Title"
+msgstr "職業名"
+
+#: admin-frontend-settings.php:116
+msgid "Date Posted"
+msgstr "投稿日時"
+
+#: admin-frontend-settings.php:117
+msgid "Closing Date"
+msgstr "締切日"
+
+#: admin-frontend-settings.php:123
+#, php-format
+msgid "Custom Field: %1s"
+msgstr "カスタムフィールド：%1s"
+
+#: admin-frontend-settings.php:128
+msgid "Select the criteria you'd like to have job lists sorted by."
+msgstr "並び順ジョブのリストを持っているしたいのですが条件を選択します。"
+
+#: admin-frontend-settings.php:134
+msgid "Ascending"
+msgstr "昇順"
+
+#: admin-frontend-settings.php:135
+msgid "Descending"
+msgstr "降順"
+
+#: admin-frontend-settings.php:138
+msgid ""
+"Ascending: Lowest value to highest value, alphabetical or chronological order"
+msgstr "昇順：最大値から最小値、アルファベット順や年代順"
+
+#: admin-frontend-settings.php:139
+msgid ""
+"Descending: Highest value to lowest value, reverse alphabetical or "
+"chronological order"
+msgstr "降順：最大値から最小値を、アルファベット順や年代順を逆にする"
+
+#: admin-frontend-settings.php:143
+msgid "Highlighted jobs behaviour"
+msgstr "ハイライトされている求人の動作"
+
+#: admin-frontend-settings.php:145
+msgid "Sticky"
+msgstr "先頭に固定表示"
+
+#: admin-frontend-settings.php:146
+msgid "Inline"
+msgstr "インライン"
+
+#: admin-frontend-settings.php:149
+msgid "Sticky: Put highlighted jobs at the top of the jobs list."
+msgstr "先頭に固定表示：求人一覧の上部にハイライトされている求人を配置します。"
+
+#: admin-frontend-settings.php:150
+msgid "Inline: Leave highlighted jobs in their normal place in the jobs list."
+msgstr ""
+"インライン：通常の場所では求人一覧の中でハイライトされている求人のままにして"
+"おきます。"
+
+#: admin-frontend-settings.php:155
+msgid "Update Sort Settings"
+msgstr "並べ替えの設定を更新する"
+
+#: admin-frontend-settings.php:163
+msgid ""
+"These settings allow you to define the templates for displaying lists of "
+"jobs, and individual jobs. To do this, you will need to make use of the "
+"available shortcodes."
+msgstr ""
+"これらの設定では、求人、および個々の求人一覧を表示するためのテンプレートを定"
+"義することができます。これを行うには、使用可能なショートコードを利用する必要"
+"があります。"
+
+#: admin-frontend-settings.php:165 db.php:243 db.php:692
+msgid "Job Information"
+msgstr "求人情報"
+
+#: admin-frontend-settings.php:166
+msgid ""
+"This will loop over a list of all the Jobs, and display the contained HTML "
+"and shortcodes for each."
+msgstr ""
+"すべての求人リストに対して、それぞれに含まれているHTMLおよびショートコードを"
+"表示します。"
+
+#: admin-frontend-settings.php:167
+msgid ""
+"This will display the ID of the Job currently being displayed, either in a "
+"<tt>[job_loop]</tt> or on an Individual Job page."
+msgstr ""
+"固有の求人のページ上または<tt> [job_loop] </ tt>ループタグ内のいずれかで、現"
+"在表示されている求人のIDを表示する事ができます"
+
+#: admin-frontend-settings.php:168
+msgid "This will display the Title of the current Job."
+msgstr "ここには、現在の求人のタイトルが表示されます。"
+
+#: admin-frontend-settings.php:169
+msgid ""
+"While inside a <tt>[job_loop]</tt>, this will display the row number of the "
+"job currently being displayed."
+msgstr ""
+"<tt> [job_loop] </ tt>タグのループ内では現在表示されているジョブの行番号が表"
+"示されます。"
+
+#: admin-frontend-settings.php:170
+msgid ""
+"While inside a <tt>[job_loop]</tt>, this will display \"odd\", if the "
+"current <tt>[job_row_number]</tt> is odd, or \"even\" if <tt>[job_row_number]"
+"</tt> is even."
+msgstr ""
+"<tt> [job_loop] </ tt>タグのループ内では、現在の<tt> [job_row_number] </ tt>"
+"が奇数ならば、「odd」、偶数ならば「even」が表示されます"
+
+#: admin-frontend-settings.php:171
+msgid ""
+"If the current Job has been marked as highlighted, this will display the "
+"word \"highlighted\"."
+msgstr ""
+"現在の求人がハイライトされるようにマークされている場合、「ハイライト」と表示"
+"されます。"
+
+#: admin-frontend-settings.php:172
+msgid ""
+"If the current Job has an icon assigned to it, this will display the icon."
+msgstr ""
+"現在の求人に割り当てられたアイコンがある場合は、このアイコンが表示されます。"
+
+#: admin-frontend-settings.php:173
+msgid ""
+"This will display a link to the current Job, with the contained text as the "
+"link text."
+msgstr "現在の求人に、リンク文字列として格納されている文字列が表示されます。"
+
+#: admin-frontend-settings.php:174
+msgid ""
+"This will display a link to the Application Form for the current Job, with "
+"the contained text as the link text. If it is used outside of the <tt>"
+"[job_loop]</tt>, it will display a link to the main Application Form."
+msgstr ""
+
+#: admin-frontend-settings.php:176
+msgid "Job Category Information"
+msgstr "求人カテゴリ情報"
+
+#: admin-frontend-settings.php:177
+msgid ""
+"If the current Job is assigned to any Categories, this will display a comma-"
+"separated list of the Category Titles."
+msgstr ""
+"現在のジョブが任意のカテゴリーに割り当てられている場合、カンマ区切りリストで"
+"カテゴリーのタイトルを表示します。"
+
+#: admin-frontend-settings.php:178
+msgid ""
+"If the current Job is assigned to any Categories, this will display a comma-"
+"separated list of the Category Titles, with each Title as a link to that "
+"Category."
+msgstr ""
+"現在の求人が任意のカテゴリーに割り当てられている場合、これはそのカテゴリーへ"
+"のリンクなどの各タイトルで、カテゴリータイトルのカンマ区切りリストを表示しま"
+"す。"
+
+#: admin-frontend-settings.php:179
+msgid ""
+"This will display the category name, if the current job list is a category."
+msgstr "現在の求人一覧がカテゴリである場合、これは、カテゴリ名が表示されます。"
+
+#: admin-frontend-settings.php:180
+msgid ""
+"This will display a link to the current category, with the contained text as "
+"the link text."
+msgstr ""
+"リンク文字列として格納されている文字列で、現在のカテゴリへのリンクが表示され"
+"ます。"
+
+#: admin-frontend-settings.php:182
+msgid "Page Navigation"
+msgstr "ページナビゲーション"
+
+#: admin-frontend-settings.php:183
+msgid ""
+"Returns the number of jobs that are being shown per page, or 0 for all of "
+"them."
+msgstr "ページごとに表示されている求人の数または０を返します。"
+
+#: admin-frontend-settings.php:184
+msgid ""
+"This will display a link to the previous page, with the contained text as "
+"the link text. If the user is on the first page, it will display nothing."
+msgstr ""
+"リンク文字列として格納されている文字列で、前のページへのリンクが表示されま"
+"す。ユーザーが最初のページを表示している場合は、何も表示されません。"
+
+#: admin-frontend-settings.php:185
+msgid "Returns the page number of the previous page."
+msgstr "前のページのページ番号を返します。"
+
+#: admin-frontend-settings.php:186
+msgid ""
+"This will display a link to the next page, with the contained text as the "
+"link text. If the user is on the last page, it will display nothing."
+msgstr ""
+"ここに含まれている文章をリンクテキストとして次のページへのリンクが表示されま"
+"す。最後のページにいる場合は何も表示されません。"
+
+#: admin-frontend-settings.php:187
+msgid "Returns the page number of the next page."
+msgstr "次のページのページ番号を返します。"
+
+#: admin-frontend-settings.php:188
+msgid "Returns the page number of the current page."
+msgstr "現在のページのページ番号を返します。"
+
+#: admin-frontend-settings.php:189
+msgid "The job number of the first job being displayed on the current page."
+msgstr "現在のページに表示される最初の求人の求人番号。"
+
+#: admin-frontend-settings.php:190
+msgid "The job number of the last job being displayed on the current page."
+msgstr "現在のページに表示されている最後の求人の求人番号。"
+
+#: admin-frontend-settings.php:191
+msgid "The total number of jobs over all pages of this list."
+msgstr "すべてのページにわたっての求人の合計数。"
+
+#: admin-frontend-settings.php:193
+msgid "Job Field Information"
+msgstr "求人フィールド情報"
+
+#: admin-frontend-settings.php:194
+msgid ""
+"This will loop over all of the defined Job Fields, and display the contained "
+"HTML and shortcodes for each. This can be used inside a <tt>[job_loop]</tt>, "
+"or on an Individual Job page."
+msgstr ""
+
+#: admin-frontend-settings.php:195
+msgid ""
+"While inside a <tt>[job_field_loop]</tt>, this will display the label of the "
+"current field being displayed."
+msgstr ""
+"<tt> [job_field_loop] </ tt>タグのループ内では、現在表示されているフィールド"
+"のラベルが表示されます。"
+
+#: admin-frontend-settings.php:196
+msgid ""
+"While inside a <tt>[job_field_loop]</tt>, this will display the data "
+"associated with the current field and Job being displayed. If the field is a "
+"file, it will obey the <tt>type=\"url\"</tt> attribute, to only return the "
+"URL, instead of a link to the file, or the <tt>type=\"image\"</tt> "
+"attribute, to return an image. If the field is a large text field, it will "
+"obey the <tt>length=\"<em>n</em>\"</tt> attribute, to restrict the output to "
+"<em>n</em> characters."
+msgstr ""
+"<tt>[job_field_loop]</tt>タグのループ中で、表示中の求人とフィールドに関連する"
+"データが表示されます。フィールドがファイルの場合は、ファイルへのリンクではな"
+"くURLを取得したい場合は<tt>type=\"url\"</tt>属性を使います。画像を取得したい"
+"場合は<tt>type=\"image\"</tt>。フィールドが大きなテキストフィールドの場合、"
+"<tt>length=\"<em>n</em>\"</tt>属性を使って、出力する文字数をn文字に制限しま"
+"す。"
+
+#: admin-frontend-settings.php:198
+msgid "Custom Job Field Information"
+msgstr "カスタム求人フィールド情報"
+
+#: admin-frontend-settings.php:199
+msgid ""
+"For each of the Custom Job Fields defined, there are two shortcodes defined, "
+"one for the Label and one for the Data. Note that these numbers won't "
+"change, even if you re-order, add or delete Job Fields."
+msgstr ""
+"定義されたカスタム求人のフィールドごとに、定義した二つのラベル用とデータ用の"
+"ショートコードあります。再注文、追加または求人フィールドを削除しても、これら"
+"の番号が変更されないことに注意してください。"
+
+#: admin-frontend-settings.php:206
+msgid ""
+"As a file field, the <tt>type=\"(url|image)\"</tt> attribute can be used."
+msgstr "ファイルフィールドには、<tt>type=\"(url|image)\"</tt>属性を使います。"
+
+#: admin-frontend-settings.php:208
+msgid ""
+"As a large text field, the <tt>length=\"<em>n</em>\"</tt> attribute can be "
+"used."
+msgstr ""
+"テキストフ​​ィールドが大きくなる場合には、<tt>length=\"<em>n</em>\"</ tt>という"
+"属性を使用することができます。"
+
+#: admin-frontend-settings.php:214 admin-frontend-settings.php:330
+msgid "Conditionals"
+msgstr "条件判定"
+
+#: admin-frontend-settings.php:215
+msgid ""
+"All of the shortcodes defined above can be prefixed with <tt>if_</tt> to "
+"turn them into a conditional statement. For example, if you wanted to "
+"display the text \"Categories: \", and then a list of the Categories a job "
+"is in, but you don't want to display it if there are no categories, you "
+"could put in the template:"
+msgstr ""
+"上記で定義されたすべてのショートコードは、「if_」接頭辞を付けることで、条件判"
+"定タグとして利用できます。たとえば、「カテゴリー：」というテキストと、それに"
+"続く求人が所属するカテゴリーのリストを表示し、もしカテゴリーがない場合には何"
+"も表示したくない場合は、下記のようにテンプレートに書くことができます。"
+
+#: admin-frontend-settings.php:221
+msgid "Multi-Applications"
+msgstr "複数応募"
+
+#: admin-frontend-settings.php:222
+msgid ""
+"These shortcodes are only valid if the \"Allow Multi-Applications\" option "
+"is checked under Admin Options. If it is not checked, they will not display."
+msgstr ""
+"これらのショートコードは、管理オプションの画面にある「複数の応募を許可する」"
+"にチェックを入れている場合のみ有効です。チェックされていない場合は表示されま"
+"せん。"
+
+#: admin-frontend-settings.php:223
+msgid ""
+"While inside a <tt>[job_field_loop]</tt>, this will display a checkbox "
+"associated with the current job."
+msgstr ""
+"<tt>[job_field_loop]</tt>タグのループの中で、表示中の求人と関連するチェック"
+"ボックスが表示されます。"
+
+#: admin-frontend-settings.php:224
+msgid ""
+"This will display a button to allow the applicant to apply for all checked "
+"jobs, with the contained text as the button text."
+msgstr ""
+"応募者がボタンの文字列として格納されている文字列で、すべてのチェック求人に適"
+"用できるようにするボタンが表示されます。"
+
+#: admin-frontend-settings.php:233
+msgid "Job List Template"
+msgstr "求人リストのテンプレート"
+
+#: admin-frontend-settings.php:237
+msgid "Individual Job Template"
+msgstr "求人個々のテンプレート"
+
+#: admin-frontend-settings.php:241 admin-frontend-settings.php:340
+msgid "Update Template Settings"
+msgstr "テンプレートの設定を更新する"
+
+#: admin-frontend-settings.php:256
+msgid "Category Selector"
+msgstr "カテゴリーセレクター"
+
+#: admin-frontend-settings.php:258 admin-frontend-settings.php:273
+msgid "Don't Display"
+msgstr "表示しない"
+
+#: admin-frontend-settings.php:259 admin-frontend-settings.php:274
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: admin-frontend-settings.php:260 admin-frontend-settings.php:275
+msgid "HTML List"
+msgstr "HTMLリスト"
+
+#: admin-frontend-settings.php:261 admin-frontend-settings.php:276
+msgid "Popout"
+msgstr "ポップアウト"
+
+#: admin-frontend-settings.php:264
+msgid ""
+"Allows an applicant to select a category or multiple categories to apply "
+"for. This will only display if the applicant is not applying for a specific "
+"job."
+msgstr ""
+"応募者は、応募するカテゴリーまたは複数のカテゴリーを選択することができます。"
+"応募者が特定の求人に対して適用されていない場合にのみ表示されます。"
+
+#: admin-frontend-settings.php:265 admin-frontend-settings.php:280
+msgid "Dropdown: Shows a normal selector"
+msgstr "ドロップダウン：通常のセレクタを表示します"
+
+#: admin-frontend-settings.php:266
+msgid "HTML List: Shows a list of checkboxes"
+msgstr "HTMLのリスト：チェックボックスのリストを表示します"
+
+#: admin-frontend-settings.php:267
+msgid "Popout: Shows a list of checkboxes when the list is clicked on"
+msgstr ""
+"ポップアウト：リストがクリックすると、チェックボックスのリストが表示されます"
+
+#: admin-frontend-settings.php:271
+msgid "Job Selector"
+msgstr "求人選択"
+
+#: admin-frontend-settings.php:279
+msgid ""
+"Allows an applicant to select a category or multiple categories to apply "
+"for. This will only display if the applicant is not applying for a specific "
+"job. On category application forms, it will only list jobs from that "
+"category."
+msgstr ""
+"応募者が応募するカテゴリーまたは複数のカテゴリーを選択することができます。応"
+"募者が特定の求人に対して適用されていない場合にのみ表示されます。カテゴリの応"
+"募フォームのみ、そのカテゴリーからの求人の一覧が表示されます。"
+
+#: admin-frontend-settings.php:281
+msgid "HTML List: Shows a list of radio buttons or checkboxes"
+msgstr "HTMLのリスト：ラジオボタンやチェックボックスの一覧を表示します"
+
+#: admin-frontend-settings.php:282
+msgid ""
+"Popout: Shows a list of radio buttons or checkboxes when the list is clicked "
+"on"
+msgstr ""
+"ポップアウト：リストがクリックされたラジオボタンやチェックボックスの一覧を表"
+"示します"
+
+#: admin-frontend-settings.php:287
+msgid "Update Application Form Options"
+msgstr "応募フォームのオプションを更新"
+
+#: admin-frontend-settings.php:295
+msgid ""
+"This setting allows you to define the template for displaying the "
+"application form. If you're happy with the current application form, just "
+"leave this blank, as you'll need to update it each time you add a new field "
+"to the application form."
+msgstr ""
+"この設定では、応募フォームを表示するためのテンプレートを定義することができま"
+"す。すでに現在の応募フォームに満足している場合は、空白のままにします。応募"
+"フォームに新しいフィールドを追加するたびに更新する必要があります。"
+
+#: admin-frontend-settings.php:296
+msgid ""
+"If you do want to do this, you will need to make use of the available "
+"shortcodes."
+msgstr ""
+"あなたがこれを行う場合は、使用可能なショートコードを利用する必要があります。"
+
+#: admin-frontend-settings.php:298
+msgid "Application Form"
+msgstr "応募フォーム"
+
+#: admin-frontend-settings.php:299
+msgid "Display a list of links to the jobs being applied for."
+msgstr "適用されている求人情報へのリンクの一覧を表示します。"
+
+#: admin-frontend-settings.php:300
+msgid ""
+"This will display a list of jobs to select from. If a category application "
+"form is being used, it will display all the jobs in that category. "
+"Otherwise, it will display all jobs. It has one optional attribute:"
+msgstr ""
+"選択する求人ののリストが表示されます。カテゴリーの応募フォームが使用されてい"
+"る場合は、そのカテゴリー内のすべての求人が表示されます。それ以外の場合は、す"
+"べてのジョブが表示されます。この項目には１つのオプション属性があります。"
+
+#: admin-frontend-settings.php:301
+msgid ""
+"Can be set to one of: \"select\", \"individual\" or \"popout\". \"select\" "
+"will show a dropdown box, \"individual\" will show a list with radio buttons "
+"or checkboxes, \"popout\" is the same as \"individual\", but only shows the "
+"list when it is clicked on."
+msgstr ""
+"セレクト、固有、ポップアウトのいずれかに設定が可能です。セレクトはドロップダ"
+"ウンリストを、固有はチェックボックスかラジオボタンを、ポップアウトは固有と同"
+"様ですがクリックされた時のみリストを表示します。"
+
+#: admin-frontend-settings.php:302
+msgid ""
+"This will display a list of categories to select from. It has one optional "
+"attribute:"
+msgstr ""
+"選択するカテゴリのリストが表示されます。この項目には１つのオプション属性があ"
+"ります。"
+
+#: admin-frontend-settings.php:303
+msgid ""
+"Can be set to one of: \"select\", \"individual\" or \"popout\". \"select\" "
+"will show a dropdown box, \"individual\" will show a list with checkboxes, "
+"\"popout\" is the same as \"individual\", but only shows the list when it is "
+"clicked on."
+msgstr ""
+"セレクト、固有、ポップアウトのいずれかに設定が可能です。セレクトはドロップダ"
+"ウンリストを、固有はチェックボックスを、ポップアウトは固有と同様ですがクリッ"
+"クされた時のみリストを表示します。"
+
+#: admin-frontend-settings.php:304
+msgid ""
+"Display a submit button for the application form, with the contained text as "
+"the button text."
+msgstr ""
+"ボタンのテキストとして格納されているテキストでは、応募フォームの送信ボタンが"
+"表示されます。"
+
+#: admin-frontend-settings.php:306
+msgid "Custom Application Field Information"
+msgstr "カスタム応募フィールド情報"
+
+#: admin-frontend-settings.php:307
+msgid ""
+"For each of the Custom Job Fields defined, there are several shortcodes "
+"defined. Note that the numbers ('n' in the samples) won't change, even if "
+"you re-order, add or delete Application Fields."
+msgstr ""
+"定義されたカスタム求人フィールドごとに、定義されたいくつかのショートコードが"
+"あります。再注文の追加、またはアプリケーションフィールドを削除しても、サンプ"
+"ル内の数字（'n'）は変更されないことに注意してください。"
+
+#: admin-frontend-settings.php:308
+msgid "Display the field label"
+msgstr "フィールドラベルを表示します"
+
+#: admin-frontend-settings.php:309
+msgid "Display the field input element. "
+msgstr "フィールドの入力要素を表示します。"
+
+#: admin-frontend-settings.php:310
+msgid ""
+"If the field has been marked as mandatory, this will display the word "
+"\"mandatory\"."
+msgstr ""
+"フィールドが必須であるとマークされている場合、これは「必須」と表示されます。"
+
+#: admin-frontend-settings.php:312
+msgid "Custom Application Fields"
+msgstr "カスタム応募フィールド"
+
+#: admin-frontend-settings.php:323
+msgid "No Label"
+msgstr "ラベルなし"
+
+#: admin-frontend-settings.php:331
+msgid ""
+"All of the shortcodes defined above can be prefixed with <tt>if_</tt> to "
+"turn them into a conditional statement. For example, if you wanted to "
+"display an asterisk \"*\" next to the label of a mandatory field, you could "
+"put in the template:"
+msgstr ""
+"上記で定義されているすべてのショートコードは、「if_」接頭辞を付けることで、条"
+"件判定タグにすることができます。たとえば、必須フィールドの横にアスタリスクを"
+"表示したい場合は、下記のようにテンプレートに書くことができます。"
+
+#: admin-frontend-settings.php:348
+msgid ""
+"These text options will be displayed in various places around your job "
+"listings."
+msgstr "これらのテキストのオプションは、求人情報の様々な場所に表示されます。"
+
+#: admin-frontend-settings.php:356
+msgid "Job Title Prefix"
+msgstr "求人タイトルの接頭辞"
+
+#: admin-frontend-settings.php:357
+msgid "text"
+msgstr "テキスト"
+
+#: admin-frontend-settings.php:358
+msgid "This text is displayed before the Job Name in the page title."
+msgstr "このテキストは、ページタイトルの求人名の前に表示されます。"
+
+#: admin-frontend-settings.php:361
+msgid "Application Acceptance"
+msgstr "応募の受け入れ"
+
+#: admin-frontend-settings.php:363
+msgid ""
+"This text is displayed after an application has been accepted. If it is not "
+"filled in, the default text will be used."
+msgstr ""
+"応募が受理された後にこのテキストが表示されます。入力されていない場合、デフォ"
+"ルトのテキストが使用されます。"
+
+#: admin-frontend-settings.php:366 admin-frontend-settings.php:405
+msgid "Update Text Settings"
+msgstr "テキスト設定を更新"
+
+#: admin-frontend-settings.php:374
+msgid ""
+"This text will be displayed before or after the lists/job/forms on the "
+"respective pages. You can enter HTML in these boxes."
+msgstr ""
+"このテキストは、それぞれのページのリスト/ジョブ/フォームの前または後に表示さ"
+"れます。HTMLを入力することができます。"
+
+#: admin-frontend-settings.php:383
+msgid "Before the Main Jobs List"
+msgstr "メインの求人リストの前"
+
+#: admin-frontend-settings.php:383
+msgid "After the Main Jobs List"
+msgstr "メインの求人リストの後"
+
+#: admin-frontend-settings.php:384
+msgid "Before any Category Jobs Lists"
+msgstr "すべての求人カテゴリのリストの前"
+
+#: admin-frontend-settings.php:384
+msgid "After any Category Jobs Lists"
+msgstr "すべての求人カテゴリのリストの後"
+
+#: admin-frontend-settings.php:385
+msgid "Before a Job"
+msgstr "求人の前"
+
+#: admin-frontend-settings.php:385
+msgid "After a Job"
+msgstr "求人の後ろ"
+
+#: admin-frontend-settings.php:386
+msgid "Before the Application Form"
+msgstr "応募フォームの前"
+
+#: admin-frontend-settings.php:386
+msgid "After the Application Form"
+msgstr "応募フォームの後"
+
+#: admin-frontend-settings.php:387
+msgid "Before the Registration Form"
+msgstr "登録フォームの前"
+
+#: admin-frontend-settings.php:387
+msgid "After the Registration Form"
+msgstr "登録フォーム後"
+
+#: admin-interviews.php:70 admin-interviews.php:161 admin-interviews.php:226
+#, php-format
+msgid "Job Manager: %1s Interviews"
+msgstr "ジョブ·マネージャー：%1sの面接"
+
+#: admin-interviews.php:98 admin-interviews.php:176 admin-interviews.php:265
+msgid "Go"
+msgstr "GO"
+
+#: admin-interviews.php:277
+msgid "Interview Time"
+msgstr "面接の時間"
+
+#: admin-interviews.php:278 admin-interviews.php:376
+msgid "Interview Rating"
+msgstr "面接の評価"
+
+#: admin-interviews.php:279 admin-interviews.php:377 admin-interviews.php:388
+msgid "Interview Details"
+msgstr "面接の詳細"
+
+#: admin-interviews.php:296
+msgid "No applications scheduled for this day."
+msgstr "この日は、求人が予定されていません。"
+
+#: admin-interviews.php:307
+msgid "Job Manager: Interview Details"
+msgstr "ジョブ·マネージャー：面接の詳細"
+
+#: admin-interviews.php:317
+msgid "Interview Comments"
+msgstr "面接のコメント"
+
+#: admin-interviews.php:317
+msgid "Previous Interview Comments"
+msgstr "以前の面接のコメント"
+
+#: admin-interviews.php:367
+msgid "Job Manager: Application Interview Summary"
+msgstr "ジョブ·マネージャー：求人面接の概要"
+
+#: admin-interviews.php:375
+msgid "Interview Date"
+msgstr "面接日"
+
+#: admin-interviews.php:396
+msgid "There are no interviews for this application."
+msgstr "この求人応募の、面接はありません。"
+
+#: admin-interviews.php:439
+msgid "New Interview"
+msgstr "新規面接"
+
+#: admin-interviews.php:468
+msgid "Interview"
+msgstr "面接"
+
+#: admin-jobs-settings.php:73 admin-jobs-settings.php:92
+msgid "Show this field in the Admin Job List?"
+msgstr "求人リストの管理画面に、このフィールドを表示しますか？"
+
+#: admin-jobs-settings.php:110
+msgid "Update Jobs Form"
+msgstr "求人フォームの更新"
+
+#: admin-jobs.php:37
+msgid "Job Manager: Jobs List"
+msgstr "ジョブ·マネージャー：求人リスト"
+
+#: admin-jobs.php:40
+msgid "New Job"
+msgstr "新しい求人"
+
+#: admin-jobs.php:45
+msgid "There is no job associated with that Job ID"
+msgstr "そのジョブIDに関連付けられている求人はありません"
+
+#: admin-jobs.php:48
+msgid "New job created"
+msgstr "新しい求人が作成されました"
+
+#: admin-jobs.php:51
+msgid "Job updated"
+msgstr "更新された求人"
+
+#: admin-jobs.php:54
+msgid "You do not have permission to edit that Job"
+msgstr "その求人を編集する権限がありません"
+
+#: admin-jobs.php:68 admin-jobs.php:340 admin-settings.php:143
+#: admin-settings.php:156 admin-settings.php:225 admin-settings.php:237
+#: admin-settings.php:448 frontend-application.php:153 setup.php:89
+#: widgets.php:99 widgets.php:276 widgets.php:379 widgets.php:445
+msgid "Title"
+msgstr "タイトル"
+
+#: admin-jobs.php:83
+msgid "Display Dates"
+msgstr "日付を表示する"
+
+#: admin-jobs.php:93
+msgid "Expired jobs"
+msgstr "期限切れの求人"
+
+#: admin-jobs.php:103
+msgid "There are currently no jobs in the system."
+msgstr "現在、求人はありません。"
+
+#: admin-jobs.php:113
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: admin-jobs.php:114
+msgid "Unarchive"
+msgstr "アーカイブしない"
+
+#: admin-jobs.php:179
+msgid "Edit"
+msgstr "編集"
+
+#: admin-jobs.php:183
+msgid "View"
+msgstr "表示"
+
+#: admin-jobs.php:203
+msgid "End of Time"
+msgstr "終了時刻"
+
+#: admin-jobs.php:204
+msgid "Future"
+msgstr "将来対応"
+
+#: admin-jobs.php:204
+msgid "Live"
+msgstr "進行中"
+
+#: admin-jobs.php:204
+msgid "Expired"
+msgstr "期限切れ"
+
+#: admin-jobs.php:233
+msgid "Job Manager: New Job"
+msgstr "ジョブ·マネージャー：新規求人"
+
+#: admin-jobs.php:234
+msgid "Create Job"
+msgstr "求人の新規作成"
+
+#: admin-jobs.php:236
+msgid "New"
+msgstr "新しい"
+
+#: admin-jobs.php:239
+msgid "Job Manager: Edit Job"
+msgstr "ジョブ·マネージャー：求人の編集"
+
+#: admin-jobs.php:240
+msgid "Update Job"
+msgstr "求人を更新"
+
+#: admin-jobs.php:310
+msgid ""
+"Categories that this job belongs to. It will be displayed in the job list "
+"for each category selected."
+msgstr ""
+"この求人が属するカテゴリーです。選択されたカテゴリのジョブリストに表示されま"
+"す。"
+
+#: admin-jobs.php:313 admin-settings.php:224 admin-settings.php:236
+msgid "Icon"
+msgstr "アイコン"
+
+#: admin-jobs.php:335
+msgid "No Icon"
+msgstr "アイコンなし"
+
+#: admin-jobs.php:337
+msgid "Icon to display for this job in the Job List"
+msgstr "この求人で表示するアイコン"
+
+#: admin-jobs.php:424 admin-jobs.php:430
+msgid "HTML"
+msgstr "HTML"
+
+#: admin-jobs.php:424 admin-jobs.php:430
+msgid "Visual"
+msgstr "ビジュアル"
+
+#: admin-jobs.php:455
+msgid "Delete File?"
+msgstr "ファイルを削除しますか？"
+
+#: admin-jobs.php:484
+msgid "Display Start Date"
+msgstr "開始日を表示"
+
+#: admin-jobs.php:486
+msgid ""
+"The date this job should start being displayed on the site. To start "
+"displaying immediately, leave blank."
+msgstr "この求人のサイト表示開始日。すぐに表示するには、空白のままにする。"
+
+#: admin-jobs.php:489
+msgid "Display End Date"
+msgstr "終了日を表示"
+
+#: admin-jobs.php:491
+msgid ""
+"The date this job should stop being displayed on the site. To display "
+"indefinitely, leave blank."
+msgstr "この求人のサイト表示終了日。無期限表示するには、空白のままにする。"
+
+#: admin-jobs.php:494
+msgid "Application Email"
+msgstr "求人応募メール"
+
+#: admin-jobs.php:496
+msgid ""
+"The email address to notify when an application is submitted for this job. "
+"For default behaviour (category email or global email), leave blank."
+msgstr ""
+"この求人に応募が会った時に通知を行うメールアドレス。デフォルトにする場合は、"
+"空白のまま。"
+
+#: admin-jobs.php:504
+msgid "Highlighted?"
+msgstr "ハイライトしますか？"
+
+#: admin-jobs.php:506
+msgid ""
+"Mark this job as highlighted? For the behaviour of highlighted jobs, see the "
+"Display Settings admin page."
+msgstr ""
+"この求人をハイライトしますか？求人をハイライトしたときの動作については、表示"
+"設定の管理ページを参照してください。"
+
+#: admin-jobs.php:678
+msgid "Job Manager: Jobs"
+msgstr "ジョブ·マネージャー：求人"
+
+#: admin-jobs.php:679
+msgid ""
+"This will permanently delete all of the selected jobs. Please confirm that "
+"you want to continue."
+msgstr "すべての求人を削除します。続行するかどうか、確認してください。"
+
+#: admin-jobs.php:680
+msgid "Delete Jobs"
+msgstr "求人の削除"
+
+#: admin-settings.php:70 admin-settings.php:86 admin.php:27
+msgid "Settings"
+msgstr "設定"
+
+#: admin-settings.php:70 admin-settings.php:87
+msgid "Icons"
+msgstr "アイコン"
+
+#: admin-settings.php:70 admin-settings.php:87
+msgid "User Settings"
+msgstr "ユーザー設定"
+
+#: admin-settings.php:70 admin-settings.php:87
+msgid "Application Email Settings"
+msgstr "応募メール設定"
+
+#: admin-settings.php:70 admin-settings.php:86
+msgid "API Keys"
+msgstr "APIキー"
+
+#: admin-settings.php:70 admin-settings.php:86
+msgid "Other Plugins"
+msgstr "その他のプラグイン"
+
+#: admin-settings.php:70 admin-settings.php:87
+msgid "Uninstall Settings"
+msgstr "設定をアンインストールします"
+
+#: admin-settings.php:71
+msgid "Translators"
+msgstr "翻訳者"
+
+#: admin-settings.php:76 admin-settings.php:92
+msgid "Interview Settings"
+msgstr "面接設定"
+
+#: admin-settings.php:111
+msgid "URL path"
+msgstr "URLパス"
+
+#: admin-settings.php:114
+msgid "edit"
+msgstr "編集"
+
+#: admin-settings.php:118
+msgid "Allow Multi-Applications"
+msgstr "複数の応募を許可する"
+
+#: admin-settings.php:120
+msgid ""
+"This will allow applicants to send through a single application for multiple "
+"jobs."
+msgstr "一回の応募で複数の求人に応募ができるようにします。"
+
+#: admin-settings.php:123
+msgid "Enable Interview Scheduling"
+msgstr "面接スケジュールを有効にする"
+
+#: admin-settings.php:125
+msgid "This will enable interview scheduling functionality."
+msgstr "面接スケジュール機能が有効になります。"
+
+#: admin-settings.php:128
+msgid "Default email"
+msgstr "デフォルトのメールアドレス"
+
+#: admin-settings.php:133
+msgid "Update Settings"
+msgstr "設定を更新"
+
+#: admin-settings.php:141
+msgid ""
+"Similar to the normal WordPress Categories, Job Manager categories can be "
+"used to split jobs into different groups. They can also be used to customise "
+"how the Application Form appears for jobs in different categories."
+msgstr ""
+"WordPressのカテゴリと同じように、ジョブ·マネージャーカテゴリーは、求人をグ"
+"ループ分けするために使います。ジョブ・マネージャーカテゴリーを使って、各求人"
+"の応募フォームをカスタマイズすることができます。"
+
+#: admin-settings.php:143
+msgid "The display name of the category"
+msgstr "カテゴリーの表示名"
+
+#: admin-settings.php:144 admin-settings.php:157
+msgid "Slug"
+msgstr "スラッグ"
+
+#: admin-settings.php:144
+msgid "The URL of the category"
+msgstr "カテゴリのURL"
+
+#: admin-settings.php:145
+msgid ""
+"The address to notify when new applications are submitted in this category"
+msgstr "このカテゴリーの求人に新しい応募が際に通知するメールアドレス"
+
+#: admin-settings.php:146 admin-settings.php:159 admin-settings.php:177
+msgid "Link"
+msgstr "リンク"
+
+#: admin-settings.php:146
+msgid "The URL of the list of jobs in this category"
+msgstr "このカテゴリのジョブリストURL"
+
+#: admin-settings.php:198
+msgid "Add New Category"
+msgstr "新規カテゴリーを追加"
+
+#: admin-settings.php:204
+msgid "Show related categories?"
+msgstr "関連するカテゴリーを表示しますか？"
+
+#: admin-settings.php:206
+msgid ""
+"This will show a list of categories that any jobs in a given job list belong "
+"to."
+msgstr ""
+"ジョブリストに表示されている求人が属しているカテゴリーのリストが表示されま"
+"す。"
+
+#: admin-settings.php:209
+msgid "Update Categories"
+msgstr "カテゴリーを更新"
+
+#: admin-settings.php:222
+msgid ""
+"Icons can be assigned to jobs that you want to draw attention to. These "
+"icons will only be displayed when using the \"Summary\" jobs list type."
+msgstr ""
+"アイコンは、目立たせたい求人につけることができます。に注意を喚起したいジョブ"
+"に割り当てることができます。アイコンは、リストの表示形式で「概要」が選択され"
+"ている場合のみ、表示されます。"
+
+#: admin-settings.php:224
+msgid "The current icon"
+msgstr "現在のアイコン"
+
+#: admin-settings.php:225
+msgid "The display name of the icon"
+msgstr "アイコンの表示名"
+
+#: admin-settings.php:226 admin-settings.php:238
+msgid "File"
+msgstr "ファイル"
+
+#: admin-settings.php:226
+msgid "The icon file"
+msgstr "アイコンファイル"
+
+#: admin-settings.php:272
+msgid "Add New Icon"
+msgstr "新しいアイコンを追加"
+
+#: admin-settings.php:275
+msgid "Update Icons"
+msgstr "アイコンを更新"
+
+#: admin-settings.php:288
+msgid ""
+"Allowing users to register means that they and you can more easily keep "
+"track of jobs they've applied for."
+msgstr ""
+"ユーザー登録を有効にすると、ユーザーやあなたが、ユーザーの求人応募の履歴をよ"
+"り簡単に確認することができます。"
+
+#: admin-settings.php:296
+msgid "Enable User Registration"
+msgstr "ユーザー登録を有効にする"
+
+#: admin-settings.php:298
+msgid ""
+"This will allow users to register for the Jobs system, even if user "
+"registration is disabled for your blog."
+msgstr ""
+"あなたのブログへのユーザー登録が無効になっている場合でも、求人システムへの"
+"ユーザー登録が可能になります。"
+
+#: admin-settings.php:301
+msgid "Require User Registration"
+msgstr "ユーザー登録が必要です"
+
+#: admin-settings.php:303
+msgid ""
+"If the previous option is checked, this option will require users to login "
+"before they can complete the application form."
+msgstr ""
+"前のオプションにチェックマークが付いている場合、ユーザーは応募を完了する前に"
+"ログインする必要があります。"
+
+#: admin-settings.php:306
+msgid "Which pages should the login form be displayed on?"
+msgstr "どのページで、ログインフォームが表示されるか？"
+
+#: admin-settings.php:308
+msgid "The main jobs list"
+msgstr "メイン求人一覧"
+
+#: admin-settings.php:309
+msgid "Category jobs lists"
+msgstr "カテゴリ求人一覧"
+
+#: admin-settings.php:310
+msgid "Individual jobs"
+msgstr "個別の求人"
+
+#: admin-settings.php:311
+msgid "The application form"
+msgstr "応募フォーム"
+
+#: admin-settings.php:315
+msgid "Update User Settings"
+msgstr "ユーザ設定を更新"
+
+#: admin-settings.php:325
+msgid ""
+"When an applicant successfully submits an application, an email will be sent "
+"to the appropriate user. These options allow you to customise that email."
+msgstr ""
+"応募者がフォームの送信を完了した際に、メールが適切なユーザーに送信されます。"
+"これらのオプションを使用すると、そのメールをカスタマイズすることができます。"
+
+#: admin-settings.php:333 db.php:43 frontend-user.php:104
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: admin-settings.php:335 admin-settings.php:359 admin-settings.php:385
+#: admin-settings.php:452 frontend-application.php:342
+#: frontend-application.php:388
+msgid "None"
+msgstr "なし"
+
+#: admin-settings.php:353
+msgid ""
+"The application field to use as the email address. This will be the \"From\" "
+"address in the initial application, and the field used for emailing "
+"applicants."
+msgstr ""
+
+#: admin-settings.php:356
+msgid "From Name"
+msgstr "送信者名"
+
+#: admin-settings.php:378
+msgid "The name that will appear with the \"From\" email address."
+msgstr "メールアドレスの送信者メールアドレスで表示される名前。"
+
+#: admin-settings.php:404
+msgid "The email subject, and any fields to include in the subject."
+msgstr "メールの件名と、件名に含まれる任意のフィールド。"
+
+#: admin-settings.php:408
+msgid "Update Email Settings"
+msgstr "メール設定を更新"
+
+#: admin-settings.php:425
+msgid "Default View"
+msgstr "デフォルト表示"
+
+#: admin-settings.php:430
+msgid "Day"
+msgstr "日"
+
+#: admin-settings.php:431
+msgid "Month"
+msgstr "月"
+
+#: admin-settings.php:432
+msgid "Year"
+msgstr "年"
+
+#: admin-settings.php:445
+msgid "The default calendar view on the \"Interviews\" page."
+msgstr "「面接」ページのデフォルトのカレンダー表示。"
+
+#: admin-settings.php:471
+msgid ""
+"The Interview title, and any fields to include in the title, as displayed on "
+"the \"Interviews\" page."
+msgstr ""
+"面接のタイトルと、「面接」ページに表示されるタイトルに含まれる任意のフィール"
+"ド。"
+
+#: admin-settings.php:475
+msgid "Update Interview Settings"
+msgstr "面接設定を更新"
+
+#: admin-settings.php:490
+msgid "Google Maps API"
+msgstr "Google マップ API"
+
+#: admin-settings.php:492
+#, php-format
+msgid ""
+"Job Manager uses Google Maps for the Geolocation application field. "
+"Functionality of this field will be severely hampered without a Google Maps "
+"key. You can register for a Google Maps key <a href=\"%1s\">here</a>."
+msgstr ""
+"ジョブマネージャーは、応募フォームの位置情報フィールドにGoogle Mapsを利用して"
+"います。このフィールドの機能はGoogle Mapsキーがない場合は制限されることがあり"
+"ます。Google Mapsキーの登録は<a href=\"%1s\">こちら</a>。"
+
+#: admin-settings.php:496
+msgid "Update API Keys"
+msgstr "APIキーを更新する"
+
+#: admin-settings.php:504
+msgid ""
+"Job Manager provides extra functionality through the use of other plugins "
+"available for WordPress. These plugins are not required for Job Manager to "
+"function, but do provide enhancements."
+msgstr ""
+"ジョブマネージャーは、WordPress用の他のプラグインを使うことで拡張機能を提供し"
+"ます。これらのプラグインの動作にジョブマネージャーは必要ありませんが、ジョブ"
+"マネージャーの機能を改善します。"
+
+#: admin-settings.php:512 admin-settings.php:543 admin-settings.php:548
+msgid "Installed"
+msgstr "インストール済み"
+
+#: admin-settings.php:517
+msgid "Not Installed"
+msgstr "インストールされていません"
+
+#: admin-settings.php:520
+msgid "Google XML Sitemaps"
+msgstr "GoogleXMLサイトマップ"
+
+#: admin-settings.php:521
+msgid ""
+"Allows you to automatically add all your job listing and job detail pages to "
+"your sitemap. By default, only the main job list is added."
+msgstr ""
+"自動的にあなたのサイトマップにすべての掲載情報、ジョブの詳細ページを追加する"
+"ことができます。デフォルトでは、メイン求人一覧が追加されます。"
+
+#: admin-settings.php:524 admin-settings.php:555
+msgid "Status"
+msgstr "ステータス"
+
+#: admin-settings.php:525
+msgid "Version"
+msgstr "バージョン"
+
+#: admin-settings.php:526
+msgid "Job Manager requires Google XML Sitemaps version 3.2 or later."
+msgstr "ジョブマネージャーはGoogle XML Sitemapsのバージョン3.2以降が必要です。"
+
+#: admin-settings.php:531 admin-settings.php:560 admin-settings.php:586
+msgid "Options"
+msgstr "オプション"
+
+#: admin-settings.php:534
+msgid "Add Job pages to your Sitemap?"
+msgstr "サイトマップへ求人ページを追加しますか？"
+
+#: admin-settings.php:551
+msgid "SI Captcha"
+msgstr "SIキャプチャ"
+
+#: admin-settings.php:552
+msgid "Allows you to add a Captcha to your Application submission form."
+msgstr "応募フォームにCaptchaを追加することができます。"
+
+#: admin-settings.php:563
+msgid "Add a captcha to the application form?"
+msgstr "応募フォームにCAPTCHAを追加しますか？"
+
+#: admin-settings.php:570
+msgid "Update Plugin Settings"
+msgstr "プラグイン設定を更新"
+
+#: admin-settings.php:578
+msgid ""
+"If you ever choose to uninstall Job Manager, you can select what parts "
+"should be deleted from the database."
+msgstr ""
+"ジョブマネージャーをアンインストールする場合は、データベースからどの部分を削"
+"除する必要があるか選択できます。"
+
+#: admin-settings.php:588
+msgid ""
+"The options selected on the Admin Settings and Display Settings pages. This "
+"includes any icons uploaded."
+msgstr ""
+"管理者設定と表示設定ページで選択されたオプションと、アップロードされたアイコ"
+"ン。"
+
+#: admin-settings.php:593
+msgid "Jobs that have been created."
+msgstr "作成された求人。"
+
+#: admin-settings.php:598
+msgid ""
+"Applications that have been submitted. This includes any files uploaded "
+"(resumes, etc)."
+msgstr ""
+"受け付けた応募。これは、アップロードされたファイル（履歴書等）が含まれていま"
+"す。"
+
+#: admin-settings.php:603
+msgid "Job Manager Categories that have been created."
+msgstr "作成されたジョブマネージャー・カテゴリー。"
+
+#: admin-settings.php:606
+msgid "Update Uninstall Settings"
+msgstr "アンインストール設定を更新"
+
+#. #-#-#-#-#  plugin.pot (Job Manager 0.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin.php:26 admin.php:27 admin.php:28 admin.php:29 admin.php:30
+#: admin.php:31 admin.php:34
+msgid "Job Manager"
+msgstr "ジョブマネージャー"
+
+#: admin.php:28
+msgid "Add Job"
+msgstr "求人の追加"
+
+#: admin.php:46 admin.php:193
+msgid "My Amazon Wish List"
+msgstr "Amazonウィッシュリスト"
+
+#: admin.php:47 admin.php:194
+msgid "Donate with PayPal"
+msgstr "PayPalで寄付"
+
+#: admin.php:167
+msgid "Admin Settings"
+msgstr "管理者設定"
+
+#: admin.php:169
+msgid "App. Form Settings"
+msgstr "応募フォーム設定"
+
+#: admin.php:170
+msgid "Job Form Settings"
+msgstr "求人フォーム設定"
+
+#: admin.php:191
+msgid ""
+"If this plugin helps you find that perfect new employee, I'd appreciate it "
+"if you shared the love, by way of my Donate or Amazon Wish List links below."
+msgstr ""
+"このプラグインが完璧な新しい従業員を見つけるお手伝いができたのであれば、感謝"
+"を示すために寄付とAmazonウィッシュリストのリンクをご用意しました。"
+
+#: admin.php:202
+msgid "Gary Pendergast's Blog"
+msgstr "Gary Pendergastのブログ"
+
+#: admin.php:203
+msgid "Follow me on Twitter!"
+msgstr "Twitterでフォロー！"
+
+#: admin.php:204
+msgid "Plugin Homepage"
+msgstr "プラグインのホームページ"
+
+#: admin.php:205
+msgid "Submit a Bug/Feature Request"
+msgstr "バグ／機能リクエストの送信"
+
+#: admin.php:212
+msgid ""
+"If you're using Job Manager in a language other than English, you have some "
+"of my wonderful translators to thank for it!"
+msgstr ""
+"あなたが英語以外の言語でジョブマネージャーを使用している場合は、素晴らしい翻"
+"訳者たちに感謝を！"
+
+#: admin.php:213
+#, php-format
+msgid ""
+"If you're fluent in a language not listed here, and would like to appear on "
+"this list, please <a href='%1s'>contact me</a>!"
+msgstr ""
+"ここに記載されていない言語に堪能で、このリストに表示したい場合は、<a "
+"href='%1s'>私に連絡してください</a>！"
+
+#: admin.php:215
+msgid "Dutch"
+msgstr "オランダ語"
+
+#: admin.php:216
+msgid "French"
+msgstr "フランス語"
+
+#: admin.php:217
+msgid "German"
+msgstr "ドイツ語"
+
+#: admin.php:218
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: db.php:10
+msgid "Personal Details"
+msgstr "個人情報"
+
+#: db.php:21
+msgid "Name"
+msgstr "名"
+
+#: db.php:32
+msgid "Surname"
+msgstr "姓"
+
+#: db.php:54
+msgid "Contact Details"
+msgstr "連絡先"
+
+#: db.php:65
+msgid "Address"
+msgstr "住所"
+
+#: db.php:76
+msgid "City"
+msgstr "市区町村"
+
+#: db.php:87
+msgid "Post code"
+msgstr "郵便番号"
+
+#: db.php:98
+msgid "Country"
+msgstr "国"
+
+#: db.php:109
+msgid "Telephone"
+msgstr "電話"
+
+#: db.php:120
+msgid "Cell phone"
+msgstr "携帯電話"
+
+#: db.php:131
+msgid "Qualifications"
+msgstr "資格"
+
+#: db.php:142
+msgid "Do you have a degree?"
+msgstr "学位を持っていますか？"
+
+#: db.php:145
+msgid "Yes"
+msgstr "はい"
+
+#: db.php:145
+msgid "No"
+msgstr "いいえ"
+
+#: db.php:153
+msgid "Where did you complete your degree?"
+msgstr "どこで学位を完了しましたか？"
+
+#: db.php:164
+msgid "Title of your degree"
+msgstr "あなたの学位の種類"
+
+#: db.php:175
+msgid "Upload your CV"
+msgstr "履歴書をアップロード"
+
+#: db.php:200 db.php:202
+msgid "I have read and understood the privacy policy."
+msgstr "私は、プライバシーポリシーを読み、理解しました。"
+
+#: db.php:203
+msgid ""
+"You need to read and agree to our privacy policy before we can accept your "
+"application. Please click the 'Back' button in your browser, read our "
+"privacy policy, and confirm that you accept."
+msgstr ""
+"応募を受け付けるためには、プライバシーポリシーをお読みになり、同意していただ"
+"く必要があります。ブラウザの「戻る」ボタンをクリックして、プライバシーポリ"
+"シーを読み、同意することを確認してください。"
+
+#: db.php:211 db.php:660
+msgid "Salary"
+msgstr "給与"
+
+#: db.php:219 db.php:668
+msgid "Start Date"
+msgstr "開始日"
+
+#: db.php:223 db.php:672
+msgid ""
+"The date that the job starts. For positions available immediately, leave "
+"blank."
+msgstr "求人が開始された日付。すぐに開始する場合は、空白のままにします。"
+
+#: db.php:227 db.php:676
+msgid "End Date"
+msgstr "終了日"
+
+#: db.php:231 db.php:680
+msgid "The date that the job finishes. For ongoing positions, leave blank."
+msgstr "求人を終了する日付。求人を継続する場合は、空白のままにします。"
+
+#: db.php:235 db.php:684
+msgid "Location"
+msgstr "位置"
+
+#: db.php:258 db.php:332 frontend-jobs.php:14
+msgid "Jobs Listing"
+msgstr "求人一覧"
+
+#: db.php:259 db.php:333
+msgid ""
+"Hi! This page is used by your Job Manager plugin as a base. Feel free to "
+"change settings here, but please do not delete this page. Also note that any "
+"content you enter here will not show up when this page is displayed on your "
+"site."
+msgstr ""
+"このページはジョブマネージャープラグインのベースとして使われています。設定の"
+"変更は自由ですが、このページを削除しないでください。このページはサイト上で表"
+"示されている場合、ここで入力したコンテンツは表示されないことに注意してくださ"
+"い。"
+
+#: db.php:274 db.php:545 frontend-application.php:53
+#: frontend-application.php:85 frontend-application.php:97
+#: frontend-application.php:864 frontend.php:368 setup.php:41
+msgid "Job Application"
+msgstr "応募"
+
+#: db.php:288 db.php:605 frontend-user.php:32 frontend-user.php:109
+msgid "Register"
+msgstr "登録"
+
+#: frontend-application.php:35
+msgid ""
+"It seems you recently applied for this job. If you would like to add further "
+"information to your application, please contact us directly."
+msgstr ""
+"あなたは最近この仕事に応募したようです。あなたの応募情報にさらに情報を追加し"
+"たい場合は、直接お問い合わせください。"
+
+#: frontend-application.php:39
+msgid ""
+"There was an error uploading your application. Please contact us directly, "
+"and quote the information below:"
+msgstr ""
+"あなたの応募のアップロードに失敗しました。下記の情報を引用のうえ、直接お問い"
+"合わせください。"
+
+#: frontend-application.php:48
+msgid ""
+"Thank you for your application. While your application doesn't fit our "
+"current requirements, please contact us directly to see if we have other "
+"positions available."
+msgstr ""
+"ご応募ありがとうございます。あなたの応募は私たちの現在の要件に合致していない"
+"ため、ほかの職があるかどうかを確認するために直接お問い合わせください。"
+
+#: frontend-application.php:65
+msgid ""
+"Before completing your application, please login using the form above, or "
+"register using the form below."
+msgstr ""
+"応募を完了する前に、上記のフォームを使用してログイン、または以下のフォームを"
+"使って登録してください。"
+
+#: frontend-application.php:157
+msgid "Select the jobs you would like to apply for"
+msgstr "応募したい求人を選択してください。"
+
+#: frontend-application.php:159
+msgid "Select the categories that you are interested in"
+msgstr "あなたが興味を持っているカテゴリを選択して下さい"
+
+#: frontend-application.php:166
+msgid ""
+"Fields marked with an asterisk (*) must be filled out before submitting."
+msgstr ""
+"アスタリスク（*）の付いたフィールドは、送信する前に記入する必要があります。"
+
+#: frontend-application.php:250
+msgid "Submit Your Application"
+msgstr "申請書を提出"
+
+#: frontend-application.php:868
+msgid "Application Link"
+msgstr "アプリケーションのリンク"
+
+#: frontend-jobs.php:108 frontend-shortcodes.php:128
+#, php-format
+msgid "Jobs for %s"
+msgstr "のための求人%s"
+
+#: frontend-jobs.php:111
+msgid "Related Categories"
+msgstr "関連のあるカテゴリー"
+
+#: frontend-jobs.php:150
+#, php-format
+msgid ""
+"We currently don't have any jobs available. Please check back regularly, as "
+"we frequently post new jobs. In the meantime, you can also <a href='%s'>send "
+"through your résumé</a>, which we'll keep on file."
+msgstr ""
+
+#: frontend-jobs.php:164
+#, php-format
+msgid ""
+"We currently don't have any jobs available in this area. Please check back "
+"regularly, as we frequently post new jobs. In the mean time, you can also <a "
+"href='%s'>send through your résumé</a>, which we'll keep on file, and you "
+"can check out the <a href='%s'>jobs we have available in other areas</a>."
+msgstr ""
+
+#: frontend-jobs.php:223
+msgid "This job doesn't exist"
+msgstr "このジョブは存在しません"
+
+#: frontend-jobs.php:225
+#, php-format
+msgid ""
+"Perhaps you followed an out-of-date link? Please check out the <a href=\"%s"
+"\">jobs we have currently available</a>."
+msgstr ""
+
+#: frontend-shortcodes.php:157 frontend-shortcodes.php:355
+msgid "more"
+msgstr "もっと"
+
+#: frontend-user.php:15
+#, php-format
+msgid "Welcome, %1s!"
+msgstr "%1sさん、ようこそ！"
+
+#: frontend-user.php:25
+msgid ""
+"If you've registered with us previously, please login now. If you'd like to "
+"register, please click the 'Register' link below."
+msgstr "あなたはすでに登録している場合は、ここでログインしてください"
+
+#: frontend-user.php:27 frontend-user.php:87
+msgid "Username"
+msgstr "ユーザー名"
+
+#: frontend-user.php:29 frontend-user.php:95
+msgid "Password"
+msgstr "パスワード"
+
+#: frontend-user.php:31
+msgid "Login"
+msgstr "ログイン"
+
+#: frontend-user.php:32
+msgid "Forgot your password?"
+msgstr "パスワードをお忘れですか？"
+
+#: frontend-user.php:82
+msgid "Please fill in all fields."
+msgstr "すべての欄に記入してください。"
+
+#: frontend-user.php:85
+msgid "This username has already been registered."
+msgstr "このユーザー名はすでに登録されています。"
+
+#: frontend-user.php:93
+msgid "Passwords do not match."
+msgstr "パスワードが一致しません。"
+
+#: frontend-user.php:98
+msgid "Password Again"
+msgstr "再度パスワード"
+
+#: frontend-user.php:102
+#, php-format
+msgid ""
+"This email address has already been registered. If you've previously "
+"registered but don't remember your password, please visit the <a "
+"href='%1s'>password reset page</a>."
+msgstr ""
+
+#: frontend.php:277
+#, php-format
+msgid ""
+"This job listing was created using <a href=\"%s\" title=\"%s\">Job Manager</"
+"a> for WordPress, by <a href=\"%s\">Gary Pendergast</a>."
+msgstr ""
+
+#: frontend.php:277
+msgid "WordPress Job Manager"
+msgstr "WordPressのジョブ·マネージャ"
+
+#: frontend.php:371 frontend.php:374
+msgid "Job Listing"
+msgstr "求人一覧"
+
+#: frontend.php:418
+msgid "Latest Jobs"
+msgstr "最新の求人"
+
+#: frontend.php:494
+msgid "The following fields must be filled out before submitting"
+msgstr "次のフィールドは、提出前に記入する必要があります"
+
+#: frontend.php:495 frontend.php:496
+msgid "click to select"
+msgstr "クリックして選択します"
+
+#: functions.php:37
+msgid "Click to toggle"
+msgstr "クリックで切替"
+
+#: functions.php:62
+msgid "No rating"
+msgstr "評価なし"
+
+#: functions.php:98
+msgid "Category"
+msgstr "カテゴリー"
+
+#: setup.php:75 setup.php:247
+msgid ""
+"Thank you for your application! We'll check it out, and get back to you soon!"
+msgstr "ご応募ありがとうございました"
+
+#: setup.php:91
+msgid "Apply Now"
+msgstr "今すぐ応募"
+
+#: setup.php:93 setup.php:94 setup.php:353 setup.php:354
+#, php-format
+msgid "Page %1s"
+msgstr ""
+
+#: setup.php:95 setup.php:355
+#, php-format
+msgid "Jobs %1s-%2s of %3s"
+msgstr ""
+
+#: widgets.php:5
+msgid "Job Manager: Recent Jobs"
+msgstr "ジョブ·マネージャ：最近の求人"
+
+#: widgets.php:6
+msgid "A list of the most recent jobs posted to your site"
+msgstr "あなたのサイトに投稿された最新の求人のリスト"
+
+#: widgets.php:68 widgets.php:363 widgets.php:429
+msgid "There are no jobs to display at this time."
+msgstr "この時点で表示する求人はありません。"
+
+#: widgets.php:110
+msgid "Number of Jobs to show"
+msgstr "表示するジョブの数"
+
+#: widgets.php:113
+msgid "at most 15"
+msgstr "多くて15"
+
+#: widgets.php:122
+msgid "Show Jobs From"
+msgstr "からの求人を表示する"
+
+#: widgets.php:124
+msgid "All Categories"
+msgstr "全てのカテゴリー"
+
+#: widgets.php:125
+msgid "Selected Categories"
+msgstr "選択したカテゴリー"
+
+#: widgets.php:149
+msgid "No categories defined."
+msgstr "カテゴリーが定義されていません。"
+
+#: widgets.php:162
+msgid "Job Manager: Categories"
+msgstr "ジョブ·マネージャ：カテゴリー"
+
+#: widgets.php:163
+msgid "A list or dropdown of Job Manager categories"
+msgstr "ジョブ・マネージャ・カテゴリーのリストまたはドロップダウン"
+
+#: widgets.php:195
+msgid "Select Category"
+msgstr "カテゴリーの選択"
+
+#: widgets.php:260
+msgid "There are no categories to display at this time."
+msgstr "現状、表示されるカテゴリはありません。"
+
+#: widgets.php:294
+msgid "Show as dropdown"
+msgstr "ドロップダウンリストとして表示"
+
+#: widgets.php:295
+msgid "Show job counts"
+msgstr "求人の数を表示"
+
+#: widgets.php:296
+msgid "Hide empty categories"
+msgstr "空のカテゴリを非表示"
+
+#: widgets.php:307
+msgid "Job Manager: Highlighted Jobs"
+msgstr "ジョブ·マネージャー：ハイライトされた求人"
+
+#: widgets.php:308
+msgid "A list jobs that have been marked as highlighted"
+msgstr "ハイライトされたリストのジョブ一覧"
+
+#: widgets.php:392
+msgid "Job Manager: Selected Jobs"
+msgstr "ジョブ·マネージャー：選択された求人"
+
+#: widgets.php:393
+msgid "A customizable list jobs posted to your site"
+msgstr "サイトに投稿されたカスタマイズ可能なリストの仕事"
+
+#: widgets.php:453
+msgid "Comma separated list of Job IDs"
+msgstr "求人IDをカンマで区切ったリスト"
+
+#. Plugin URI of the plugin/theme
+msgid "http://pento.net/projects/wordpress-job-manager-plugin/"
+msgstr "http://pento.net/projects/wordpress-job-manager-plugin/"
+
+#. Description of the plugin/theme
+msgid "A job listing and job application management plugin for WordPress."
+msgstr "求人と求人応募管理のためのWordPressプラグイン。"
+
+#. Author of the plugin/theme
+msgid "Gary Pendergast"
+msgstr "Gary pendergast"
+
+#. Author URI of the plugin/theme
+msgid "http://pento.net/"
+msgstr "http://pento.net/"
+
+#. Tags of the plugin/theme
+msgid "job, jobs, manager, list, listing, employment, employer, career"
+msgstr "求人、求人、マネージャー、リスト、リスト、雇用、雇用者、キャリア"
